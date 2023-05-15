@@ -17,7 +17,12 @@ function onImputBlurCheck() {
 
 // function onImputBlurCheck(e) {
 //     const inputValue = input.value.trim();
-//     const bool = inputValue.length === dataLength;
+//     const bool = inputValue.length === Number(dataLength);
 //     e.target.classList.toggle('valid', bool);
 //     e.target.classList.toggle('invalid', !bool);
 // }
+
+
+  
+  
+  

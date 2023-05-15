@@ -4,10 +4,8 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
-// const divEl = document.querySelector('.widget')
 const spanEl = document.querySelector('.color')
 const btnEl = document.querySelector('.change-color')
-// console.dir(divEl)
 
 btnEl.addEventListener('click', onClickChangeColor)
 
